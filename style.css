@@ -1,0 +1,167 @@
+body {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+
+.center {
+    text-align: center;
+}
+
+.font1 {
+  font-family: "Poiret One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font2 {
+  font-family: "Patrick Hand", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.box {
+    margin: 5px auto;
+    width: 100%;
+    max-width: 500px;
+    padding: 0 40px 40px 0;
+    border: 2px solid #2980b9;
+    border-radius: 6px;
+}
+
+#box {
+  margin: 5px auto;
+  width: 100%;
+  max-width: 300px;
+  padding: 0 40px 40px 0; 
+  border: 2px solid #2980b9;
+  border-radius: 6px;
+  box-sizing: border-box; 
+}
+
+.bold {
+    font-weight: bold;
+    color: #b3d4ff;
+}
+
+/* img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  border-radius: 50%; } */
+
+h1 {
+  font-size: 55px;
+  color: #7dafff;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-size: 35px;
+  color: #e6f0ff;
+  margin-bottom: 40px;
+}
+
+h3 a {
+  font-size: 27px;
+  color: #b9cfff;
+  text-decoration: underline;
+}
+
+h3 {
+  font-size: 31px;
+  color: 	#adc6ff;
+  margin-bottom: 15px;
+}
+
+div h3{
+  font-size: 22.5px;
+  color: 	#adc6ff;
+  margin-top: 22.5px;
+  margin-left: 22.5px;
+}
+
+div p {
+    margin-left: 22.5px;
+    font-size: 17px;
+}
+
+div p a {
+    color: #b3d4ff;
+    text-decoration: underline;
+}
+
+li {
+  font-size: 20px;
+  color: #ffffff !important;
+}
+
+li a {
+  color: #b3d4ff;
+  text-decoration: none;
+}
+
+.profile-container {
+  display: flex;
+  align-items: center; /* Center items vertically */
+  justify-content: center; /* Center items horizontally */
+  gap: 40px; /* Space between items */
+  margin-top: 100px;
+  flex-wrap: wrap; /* small screens wrap */
+  text-align: left;
+  margin-bottom: 100px;
+  background-color: #2a2e5b;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.profile-img {
+  width: 120px;
+  border-radius: 50%;
+}
+
+.profile-text h3 {
+  font-size: 31px;
+  color: #adc6ff;
+}
+
+.profile-text p {
+  font-size: 20px;
+  color: #dcdcdc;
+  max-width: 450px;
+}
+
+.gallery-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
+  margin-bottom: 70px;
+  padding-top: 0px;
+  
+}
+
+.gallery-card {
+  width: 300px;
+  background-color: #141516;
+  border-color: #303436;
+}
+
+.gallery-card h4 {
+  font-size: 25px;
+  color: #2980b9;
+  font-weight: bold;
+}
+
+.gallery-card p {
+  font-size: 18px;
+  color: #dcdcdc;
+  font-weight: normal;
+  margin-left: 0px;
+}
+  
